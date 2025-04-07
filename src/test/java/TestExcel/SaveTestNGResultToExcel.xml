@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "Suite1" parallel="false" >
+
+    <test name = "SaveTestNGResultToExcel">
+        <classes>
+            <class name = "TestExcel.SaveTestNGResultToExcel" />
+            <!--            <class name = "login2" />-->
+            <methods>
+                <include name="lauchWebsite"></include>
+                <include name="fillLoginDetails"></include>
+                <include name="doLogin"></include>
+            </methods>
+        </classes>
+    </test>
+
+
+
+</suite>
